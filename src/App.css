@@ -1,0 +1,32 @@
+textarea {
+  width: 700px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.stats-display {
+  display: flex;
+  justify-content: space-evenly;
+  
+  }
+.stats-content{
+  padding: 50px;
+}
+
+.stats-section {
+  width: 700px;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 10px;
+}
+
+.common-align{
+ display: flex;
+ flex-direction: column;
+
+ align-items: center;
+ gap: 20px;
+}
