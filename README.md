@@ -13,18 +13,18 @@ npm run dev
 Component Overview
 ------------------
 
-## CharacterCounter
+### CharacterCounter
  
 * Main container component
 * Manages state
 * Calculates: Character count, Word count and Reading time.
 
-## TextInput
+### TextInput
 
 * Controlled input component
 * Sends updated text back to parent
 
-## StatsDisplay
+### StatsDisplay
 
 * Displays calculated statistics
 * Optionally shows reading time
