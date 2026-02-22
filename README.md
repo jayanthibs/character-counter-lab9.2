@@ -21,13 +21,13 @@ Component Overview
 
 ## TextInput
 
-Controlled input component
-Sends updated text back to parent
+* Controlled input component
+* Sends updated text back to parent
 
 ## StatsDisplay
 
-Displays calculated statistics
-Optionally shows reading time
+* Displays calculated statistics
+* Optionally shows reading time
 
 Reflections:
 ------------
