@@ -13,9 +13,9 @@ function CharacterCounter({
   const handleChange = (event: string) => {
     setText(event);
   };
-//filter(Boolean) -It removes falsy values like:  ""  null  undefined
+  //filter(Boolean) -It removes falsy values like:  ""  null  undefined
 
-  let words = text.trim().split(/\s+/).filter(Boolean);  
+  let words = text.trim().split(/\s+/).filter(Boolean);
 
   let wordCount = words.length;
   let totalSeconds = Math.ceil(wordCount / 3);
@@ -40,10 +40,11 @@ function CharacterCounter({
 
       <StatsDisplay stats={stats} showReadingTime={true} />
 
-      <p>
-        Min: {minWords} | Max: {maxWords} | Target Reading Time:{" "}
-        {targetReadingTime}
-      </p>
+      {minWords && maxWords && targetReadingTime && (
+        <p>
+          Min: {minWords} | Max: {maxWords} | Target Reading Time: {targetReadingTime}
+        </p>
+      )}
     </div>
   );
 }
